@@ -15,6 +15,7 @@
 		00138865231553F7009DE6C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00138864231553F7009DE6C6 /* main.m */; };
 		0013886F231553F7009DE6C6 /* AddAssociationsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013886E231553F7009DE6C6 /* AddAssociationsDemoTests.m */; };
 		0013887A231553F7009DE6C6 /* AddAssociationsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00138879231553F7009DE6C6 /* AddAssociationsDemoUITests.m */; };
+		0013888923155445009DE6C6 /* UILabel+Infomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013888723155445009DE6C6 /* UILabel+Infomation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		00138875231553F7009DE6C6 /* AddAssociationsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddAssociationsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00138879231553F7009DE6C6 /* AddAssociationsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddAssociationsDemoUITests.m; sourceTree = "<group>"; };
 		0013887B231553F7009DE6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0013888723155445009DE6C6 /* UILabel+Infomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Infomation.m"; sourceTree = "<group>"; };
+		0013888823155445009DE6C6 /* UILabel+Infomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Infomation.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		00138854231553F5009DE6C6 /* AddAssociationsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0013888823155445009DE6C6 /* UILabel+Infomation.h */,
+				0013888723155445009DE6C6 /* UILabel+Infomation.m */,
 				00138855231553F5009DE6C6 /* AppDelegate.h */,
 				00138856231553F5009DE6C6 /* AppDelegate.m */,
 				00138858231553F5009DE6C6 /* ViewController.h */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0013888923155445009DE6C6 /* UILabel+Infomation.m in Sources */,
 				0013885A231553F5009DE6C6 /* ViewController.m in Sources */,
 				00138865231553F7009DE6C6 /* main.m in Sources */,
 				00138857231553F5009DE6C6 /* AppDelegate.m in Sources */,
